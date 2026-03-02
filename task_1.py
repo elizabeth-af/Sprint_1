@@ -7,9 +7,11 @@ lst = time.split(' ')
 for i in lst:
     if 'h' in i:
         count_minutes += int(i.replace('h','')) * 60
-    if 'm' in i:
+
+    elif 'm' in i:
         count_minutes += int(i.replace('m',''))
-    if 's' in i:
+
+    elif 's' in i:
         count_minutes += int(i.replace('s','')) // 60
 
 print(count_minutes)
