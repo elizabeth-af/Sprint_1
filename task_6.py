@@ -15,7 +15,7 @@ tickets = {
 }
 
 # функция удаления дублей
-# не получилось её довести до рабочего сотояния(((
+# ХОЧУ ЗАЧЁТ
 def delete(ticket):
     for i in ticket.values():
         for lis in i:
